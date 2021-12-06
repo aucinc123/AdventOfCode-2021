@@ -14,13 +14,17 @@ namespace AdventOfCode
             //foreach (var oceanVent in oceanVentPuzzle.OceanVentLineList)
             //    Console.WriteLine(oceanVent.ToString());
 
-            var answer = oceanVentPuzzle.SolveByDiagram();
-            Console.WriteLine($"Answer: {answer}");
+            //var answer = oceanVentPuzzle.SolveByDiagram();
             //Sonar();
             //DepthAndPosition();
             //GammaAndEpsilon();
             //O2AndCarbonScrubber();
             //Bingo();
+
+            var lanternFishPuzzle = new LanternFishPuzzle();
+            var answer = lanternFishPuzzle.GetLanternFishPuzzleOneAnswer();
+
+            Console.WriteLine($"Answer: {answer}");
         }
 
         static void Bingo()
