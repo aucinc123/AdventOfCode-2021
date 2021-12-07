@@ -21,10 +21,13 @@ namespace AdventOfCode
             //O2AndCarbonScrubber();
             //Bingo();
 
-            var lanternFishPuzzle = new LanternFishPuzzle();
-            var answer = lanternFishPuzzle.GetLanternFishPuzzleOneAnswer();
+            //var lanternFishPuzzle = new LanternFishPuzzle();
+            //var answer = lanternFishPuzzle.GetLanternFishPuzzleOneAnswer();
 
-            Console.WriteLine($"Answer: {answer}");
+            //Day 7:
+            CrabSubmarinePuzzle.Puzzle2Answer();
+
+            
         }
 
         static void Bingo()
