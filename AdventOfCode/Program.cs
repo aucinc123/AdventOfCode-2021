@@ -25,9 +25,13 @@ namespace AdventOfCode
             //var answer = lanternFishPuzzle.GetLanternFishPuzzleOneAnswer();
 
             //Day 7:
-            CrabSubmarinePuzzle.Puzzle2Answer();
+            //CrabSubmarinePuzzle.Puzzle2Answer();
 
-            
+            //Day 8:
+            SevenSegmentPuzzle.Puzzle2();
+
+
+
         }
 
         static void Bingo()
